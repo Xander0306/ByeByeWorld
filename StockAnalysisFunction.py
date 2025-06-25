@@ -148,11 +148,19 @@ def scrap_all():
 
 def show_BT(options):
     table = scrap(options)
-    st.dataframe(table, hide_index=True)
+
+    search_stock = st.text_input("Search for a stock listing:", "",key='s10').strip()
+    if search_stock:
+        table = table[table.iloc[:, 1].str.contains(search_stock, case=False, na=False)]
+    st.dataframe(table, hide_index=True)  
 
 def show_all():
     table2 = scrap_all()
-    st.dataframe(table2, hide_index=True)
+
+    search_stock2 = st.text_input("Search for a stock listing:", "",key='s12').strip()
+    if search_stock2:
+        table2 = table2[table2.iloc[:, 1].str.contains(search_stock2, case=False, na=False)]
+    st.dataframe(table2, hide_index=True)  
 
 
 def clean_column(options):
@@ -200,7 +208,7 @@ def predict(options, invest_amount):
 
     filtered_df.insert(0, 'Rank', range(1, 1 + len(filtered_df)))
     st.subheader("Top 10 Best Stock Based On Composite Score")
-    st.dataframe(filtered_df.iloc[:100, :], hide_index=True)
+    st.dataframe(filtered_df.iloc[:10, :], hide_index=True)
 
 def predict2(col2_options, invest_amount):
     table2 = scrap(col2_options)
