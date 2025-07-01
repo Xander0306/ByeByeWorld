@@ -299,108 +299,109 @@ def main_ticker(refresh_rate,options):
 
 def ace_tickers(refresh_rate,options):
     if options == 'Agricultural Products':
-                tickers = ['148.KL','171.KL','300.KL']
-                get_stock_data(tickers)
+        tickers = ['0148.KL','0171.KL','0300.KL']
+        get_stock_data(tickers)
     elif options == 'Auto Parts':
-        tickers = ['190.KL','263.KL','322.KL','350.KL']
+        tickers = ['0190.KL','0263.KL','0322.KL','0350.KL']
         get_stock_data(tickers)
     elif options == 'Building Materials':
-        tickers = ['227.KL','247.KL','302.KL','306.KL']
+        tickers = ['0227.KL','0247.KL','0302.KL','0306.KL']
         get_stock_data(tickers)
     elif options == 'Chemicals':
-        tickers = ['38.KL','55.KL','105.KL','301.KL','331.KL','349.KL']
+        tickers = ['0038.KL','0055.KL','0105.KL','0301.KL','0331.KL','0349.KL']
         get_stock_data(tickers)
     elif options == 'Construction':
-        tickers = ['45.KL','109.KL','162.KL','206.KL','221.KL','226.KL','235.KL','237.KL','241.KL','245.KL',
-                '273.KL','292.KL','310.KL','345.KL','347.KL','351.KL','359.KL','360.KL']
+        tickers = ['0045.KL','0109.KL','0162.KL','0206.KL','0221.KL','0226.KL','0235.KL','0237.KL','0241.KL','0245.KL',
+                '0273.KL','0292.KL','0310.KL','0345.KL','0347.KL','0351.KL','0359.KL','0360.KL']
         get_stock_data(tickers)
     elif options == 'Consumer Services':
-        tickers = ['140.KL','158.KL','178.KL','280.KL','281.KL','304.KL','330.KL','342.KL','356.KL']
+        tickers = ['0140.KL','0158.KL','0178.KL','0280.KL','0281.KL','0304.KL','0330.KL','0342.KL','0356.KL']
         get_stock_data(tickers)
     elif options == 'Digital Services':
-        tickers = ['6.KL','93.KL','117.KL','131.KL','145.KL','154.KL','176.KL','202.KL','249.KL','277.KL','319.KL']
+        tickers = ['0006.KL','0093.KL','0117.KL','0131.KL','0145.KL','0154.KL','0176.KL','0202.KL','0249.KL','0277.KL','0319.KL']
         get_stock_data(tickers)
     elif options == 'Energy Infrastructure Equipment & Services':
-        tickers = ['220.KL','320.KL']
+        tickers = ['0220.KL','0320.KL']
         get_stock_data(tickers)
     elif options == 'Food & Beverages':
-        tickers = ['74.KL','95.KL','179.KL','252.KL','260.KL','271.KL','309.KL','312.KL','316.KL','327.KL','338.KL']
+        tickers = ['0074.KL','0095.KL','0179.KL','0252.KL','0260.KL','0271.KL','0309.KL','0312.KL','0316.KL','0327.KL','0338.KL']
         get_stock_data(tickers)
     elif options == 'Gas, Water & Multi-Utilities':
-        tickers = ['11.KL']
+        tickers = ['0011.KL']
         get_stock_data(tickers)
     elif options == 'Health Care Equipment & Services':
-        tickers = ['155.KL','182.KL']
+        tickers = ['0155.KL','0182.KL']
         get_stock_data(tickers)
     elif options == 'Health Care Providers':
-        tickers = ['75.KL','243.KL','283.KL','303.KL','329.KL','332.KL']
+        tickers = ['0075.KL','0243.KL','0283.KL','0303.KL','0329.KL','0332.KL']
         get_stock_data(tickers)
     elif options == 'Household Goods':
-        tickers = ['170.KL','205.KL','216.KL','279.KL','326.KL']
+        tickers = ['0170.KL','0205.KL','0216.KL','0279.KL','0326.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Engineering':
-        tickers = ['177.KL','240.KL','255.KL','361.KL']
+        tickers = ['0177.KL','0240.KL','0255.KL','0361.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Materials, Components & Equipment':
-        tickers = ['25.KL','28.KL','72.KL','84.KL','100.KL','102.KL','133.KL','175.KL','188.KL','217.KL','238.KL',
-                '248.KL','288.KL','295.KL','298.KL','307.KL','325.KL','337.KL']
+        tickers = ['0025.KL','0028.KL','0072.KL','0084.KL','0100.KL','0102.KL','0133.KL','0175.KL','0188.KL','0217.KL','0238.KL',
+                '0248.KL','0288.KL','0295.KL','0298.KL','0307.KL','0325.KL','0337.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Services':
-        tickers = ['24.KL','81.KL','89.KL','122.KL','160.KL','167.KL','187.KL','213.KL','218.KL','231.KL','232.KL',
-                '261.KL','284.KL','289.KL','291.KL','293.KL','296.KL','317.KL','321.KL','323.KL','339.KL',
-                '346.KL','348.KL','352.KL','353.KL','355.KL']
+        tickers = ['0024.KL','0081.KL','0089.KL','0122.KL','0160.KL','0167.KL','0187.KL','0213.KL','0218.KL','0231.KL','0232.KL',
+                '0261.KL','0284.KL','0289.KL','0291.KL','0293.KL','0296.KL','0317.KL','0321.KL','0323.KL','0339.KL',
+                '0346.KL','0348.KL','0352.KL','0353.KL','0355.KL']
         get_stock_data(tickers)
     elif options == 'Media':
-        tickers = ['7.KL','147.KL','173.KL','315.KL']
+        tickers = ['0007.KL','0147.KL','0173.KL','0315.KL']
         get_stock_data(tickers)
     elif options == 'Metals':
-        tickers = ['98.KL','211.KL','266.KL','297.KL','313.KL','336.KL','341.KL']
+        tickers = ['0098.KL','0211.KL','0266.KL','0297.KL','0313.KL','0336.KL','0341.KL']
         get_stock_data(tickers)
     elif options == 'Other Financials':
-        tickers = ['53.KL','150.KL','285.KL','286.KL']
+        tickers = ['0053.KL','0150.KL','0285.KL','0286.KL']
         get_stock_data(tickers)
     elif options == 'Packaging Materials':
-        tickers = ['228.KL']
+        tickers = ['0228.KL']
         get_stock_data(tickers)
     elif options == 'Personal Goods':
-        tickers = ['333.KL','335.KL']
+        tickers = ['0333.KL','0335.KL']
         get_stock_data(tickers)
     elif options == 'Plantation':
-        tickers = ['189.KL']
+        tickers = ['0189.KL']
         get_stock_data(tickers)
     elif options == 'Property':
-        tickers = ['308.KL']
+        tickers = ['0308.KL']
         get_stock_data(tickers)
     elif options == 'Renewable Energy':
-        tickers = ['233.KL','262.KL','318.KL','340.KL']
+        tickers = ['0233.KL','0262.KL','0318.KL','0340.KL']
         get_stock_data(tickers)
     elif options == 'Retailers':
-        tickers = ['210.KL','287.KL','357.KL']
+        tickers = ['0210.KL','0287.KL','0357.KL']
         get_stock_data(tickers)
     elif options == 'Semiconductors':
-        tickers = ['70.KL','120.KL','251.KL','272.KL','275.KL','328.KL']
+        tickers = ['0070.KL','0120.KL','0251.KL','0272.KL','0275.KL','0328.KL']
         get_stock_data(tickers)
     elif options == 'Software':
-        tickers = ['10.KL','18.KL','20.KL','23.KL','26.KL','50.KL','66.KL','68.KL','69.KL','79.KL','86.KL','94.KL',
-                '106.KL','107.KL','108.KL','119.KL','132.KL','152.KL','156.KL','174.KL','203.KL','236.KL','258.KL',
-                '276.KL','290.KL','311.KL','343.KL']
+        tickers = ['0010.KL','0018.KL','0020.KL','0023.KL','0026.KL','0050.KL','0066.KL','0068.KL','0069.KL','0079.KL','0086.KL','0094.KL',
+                '0106.KL','0107.KL','0108.KL','0119.KL','0132.KL','0152.KL','0156.KL','0174.KL','0203.KL','0236.KL','0258.KL',
+                '0276.KL','0290.KL','0311.KL','0343.KL']
         get_stock_data(tickers)
     elif options == 'Technology Equipment':
-        tickers = ['5.KL','36.KL','60.KL','85.KL','111.KL','112.KL','169.KL','181.KL','191.KL','209.KL','265.KL',
-                '267.KL','278.KL','358.KL']
+        tickers = ['0005.KL','0036.KL','0060.KL','0085.KL','0111.KL','0112.KL','0169.KL','0181.KL','0191.KL','0209.KL','0265.KL',
+                '0267.KL','0278.KL','0358.KL']
         get_stock_data(tickers)
     elif options == 'Telecommunications Equipment':
-        tickers = ['17.KL','35.KL','96.KL','103.KL','123.KL','129.KL']
+        tickers = ['0017.KL','0035.KL','0096.KL','0103.KL','0123.KL','0129.KL']
         get_stock_data(tickers)
     elif options == 'Telecom Service Providers':
-        tickers = ['92.KL','165.KL','195.KL']
+        tickers = ['0092.KL','0165.KL','0195.KL']
         get_stock_data(tickers)
     elif options == 'Transportation & Logistics':
-        tickers = ['34.KL','48.KL','80.KL','199.KL','282.KL','299.KL','305.KL']
+        tickers = ['0034.KL','0048.KL','0080.KL','0199.KL','0282.KL','0299.KL','0305.KL']
         get_stock_data(tickers)
     elif options == 'Travel, Leisure & Hospitality':
-        tickers = ['22.KL','116.KL','153.KL']
-        get_stock_data(tickers)    
+        tickers = ['0022.KL','0116.KL','0153.KL']
+        get_stock_data(tickers)
+   
 
     placeholder = st.empty()
 
@@ -422,6 +423,7 @@ def etf_tickers(refresh_rate,options):
         tickers = ['0820EA.KL','0821EA.KL','0822EA.KL','0823EA.KL','0824EA.KL','0825EA.KL','0827EA.KL','0829EA.KL','0829EB.KL','0838EA.KL','0839EA.KL']
         get_stock_data(tickers)
 
+
     placeholder = st.empty()
 
     while True:
@@ -434,59 +436,60 @@ def etf_tickers(refresh_rate,options):
 def leap_tickers(refresh_rate,options):
 
     if options == 'Agricultural Products':
-        tickers = ['3051.KL']
+        tickers = ['03051.KL']
         get_stock_data(tickers)
     elif options == 'Building Materials':
-        tickers = ['3043.KL','3060.KL']
+        tickers = ['03043.KL','03060.KL']
         get_stock_data(tickers)
     elif options == 'Construction':
-        tickers = ['3017.KL','3042.KL','3050.KL']
+        tickers = ['03017.KL','03042.KL','03050.KL']
         get_stock_data(tickers)
     elif options == 'Consumer Services':
-        tickers = ['3015.KL','3019.KL','3021.KL','3025.KL','3053.KL','3063.KL']
+        tickers = ['03015.KL','03019.KL','03021.KL','03025.KL','03053.KL','03063.KL']
         get_stock_data(tickers)
     elif options == 'Digital Services':
-        tickers = ['3001.KL','3002.KL','3008.KL','3022.KL','3036.KL','3045.KL']
+        tickers = ['03001.KL','03002.KL','03008.KL','03022.KL','03036.KL','03045.KL']
         get_stock_data(tickers)
     elif options == 'Food & Beverages':
-        tickers = ['3032.KL','3048.KL']
+        tickers = ['03032.KL','03048.KL']
         get_stock_data(tickers)
     elif options == 'Health Care Providers':
-        tickers = ['3023.KL']
+        tickers = ['03023.KL']
         get_stock_data(tickers)
     elif options == 'Household Goods':
-        tickers = ['3009.KL','3012.KL','3054.KL']
+        tickers = ['03009.KL','03012.KL','03054.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Materials, Components & Equipment':
-        tickers = ['3027.KL','3031.KL','3056.KL']
+        tickers = ['03027.KL','03031.KL','03056.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Services':
-        tickers = ['3024.KL','3029.KL','3033.KL','3052.KL','3061.KL','3062.KL']
+        tickers = ['03024.KL','03029.KL','03033.KL','03052.KL','03061.KL','03062.KL']
         get_stock_data(tickers)
     elif options == 'Metals':
-        tickers = ['3028.KL']
+        tickers = ['03028.KL']
         get_stock_data(tickers)
     elif options == 'Other Financials':
-        tickers = ['3059.KL']
+        tickers = ['03059.KL']
         get_stock_data(tickers)
     elif options == 'Packaging Materials':
-        tickers = ['3040.KL']
+        tickers = ['03040.KL']
         get_stock_data(tickers)
     elif options == 'Personal Goods':
-        tickers = ['3037.KL']
+        tickers = ['03037.KL']
         get_stock_data(tickers)
     elif options == 'Pharmaceuticals':
-        tickers = ['3006.KL']
+        tickers = ['03006.KL']
         get_stock_data(tickers)
     elif options == 'Plantation':
-        tickers = ['3055.KL']
+        tickers = ['03055.KL']
         get_stock_data(tickers)
     elif options == 'Semiconductors':
-        tickers = ['3011.KL']
+        tickers = ['03011.KL']
         get_stock_data(tickers)
     elif options == 'Software':
-        tickers = ['3030.KL','3039.KL','3041.KL','3046.KL','3057.KL','3058.KL']
+        tickers = ['03030.KL','03039.KL','03041.KL','03046.KL','03057.KL','03058.KL']
         get_stock_data(tickers)
+
 
 
     placeholder = st.empty()
@@ -660,108 +663,109 @@ def main_ticker_compare(invest_amount,options):
 
 def ace_tickers_compare(invest_amount,options):
     if options == 'Agricultural Products':
-                tickers = ['148.KL','171.KL','300.KL']
-                get_stock_data(tickers)
+        tickers = ['0148.KL','0171.KL','0300.KL']
+        get_stock_data(tickers)
     elif options == 'Auto Parts':
-        tickers = ['190.KL','263.KL','322.KL','350.KL']
+        tickers = ['0190.KL','0263.KL','0322.KL','0350.KL']
         get_stock_data(tickers)
     elif options == 'Building Materials':
-        tickers = ['227.KL','247.KL','302.KL','306.KL']
+        tickers = ['0227.KL','0247.KL','0302.KL','0306.KL']
         get_stock_data(tickers)
     elif options == 'Chemicals':
-        tickers = ['38.KL','55.KL','105.KL','301.KL','331.KL','349.KL']
+        tickers = ['0038.KL','0055.KL','0105.KL','0301.KL','0331.KL','0349.KL']
         get_stock_data(tickers)
     elif options == 'Construction':
-        tickers = ['45.KL','109.KL','162.KL','206.KL','221.KL','226.KL','235.KL','237.KL','241.KL','245.KL',
-                '273.KL','292.KL','310.KL','345.KL','347.KL','351.KL','359.KL','360.KL']
+        tickers = ['0045.KL','0109.KL','0162.KL','0206.KL','0221.KL','0226.KL','0235.KL','0237.KL','0241.KL','0245.KL',
+                '0273.KL','0292.KL','0310.KL','0345.KL','0347.KL','0351.KL','0359.KL','0360.KL']
         get_stock_data(tickers)
     elif options == 'Consumer Services':
-        tickers = ['140.KL','158.KL','178.KL','280.KL','281.KL','304.KL','330.KL','342.KL','356.KL']
+        tickers = ['0140.KL','0158.KL','0178.KL','0280.KL','0281.KL','0304.KL','0330.KL','0342.KL','0356.KL']
         get_stock_data(tickers)
     elif options == 'Digital Services':
-        tickers = ['6.KL','93.KL','117.KL','131.KL','145.KL','154.KL','176.KL','202.KL','249.KL','277.KL','319.KL']
+        tickers = ['0006.KL','0093.KL','0117.KL','0131.KL','0145.KL','0154.KL','0176.KL','0202.KL','0249.KL','0277.KL','0319.KL']
         get_stock_data(tickers)
     elif options == 'Energy Infrastructure Equipment & Services':
-        tickers = ['220.KL','320.KL']
+        tickers = ['0220.KL','0320.KL']
         get_stock_data(tickers)
     elif options == 'Food & Beverages':
-        tickers = ['74.KL','95.KL','179.KL','252.KL','260.KL','271.KL','309.KL','312.KL','316.KL','327.KL','338.KL']
+        tickers = ['0074.KL','0095.KL','0179.KL','0252.KL','0260.KL','0271.KL','0309.KL','0312.KL','0316.KL','0327.KL','0338.KL']
         get_stock_data(tickers)
     elif options == 'Gas, Water & Multi-Utilities':
-        tickers = ['11.KL']
+        tickers = ['0011.KL']
         get_stock_data(tickers)
     elif options == 'Health Care Equipment & Services':
-        tickers = ['155.KL','182.KL']
+        tickers = ['0155.KL','0182.KL']
         get_stock_data(tickers)
     elif options == 'Health Care Providers':
-        tickers = ['75.KL','243.KL','283.KL','303.KL','329.KL','332.KL']
+        tickers = ['0075.KL','0243.KL','0283.KL','0303.KL','0329.KL','0332.KL']
         get_stock_data(tickers)
     elif options == 'Household Goods':
-        tickers = ['170.KL','205.KL','216.KL','279.KL','326.KL']
+        tickers = ['0170.KL','0205.KL','0216.KL','0279.KL','0326.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Engineering':
-        tickers = ['177.KL','240.KL','255.KL','361.KL']
+        tickers = ['0177.KL','0240.KL','0255.KL','0361.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Materials, Components & Equipment':
-        tickers = ['25.KL','28.KL','72.KL','84.KL','100.KL','102.KL','133.KL','175.KL','188.KL','217.KL','238.KL',
-                '248.KL','288.KL','295.KL','298.KL','307.KL','325.KL','337.KL']
+        tickers = ['0025.KL','0028.KL','0072.KL','0084.KL','0100.KL','0102.KL','0133.KL','0175.KL','0188.KL','0217.KL','0238.KL',
+                '0248.KL','0288.KL','0295.KL','0298.KL','0307.KL','0325.KL','0337.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Services':
-        tickers = ['24.KL','81.KL','89.KL','122.KL','160.KL','167.KL','187.KL','213.KL','218.KL','231.KL','232.KL',
-                '261.KL','284.KL','289.KL','291.KL','293.KL','296.KL','317.KL','321.KL','323.KL','339.KL',
-                '346.KL','348.KL','352.KL','353.KL','355.KL']
+        tickers = ['0024.KL','0081.KL','0089.KL','0122.KL','0160.KL','0167.KL','0187.KL','0213.KL','0218.KL','0231.KL','0232.KL',
+                '0261.KL','0284.KL','0289.KL','0291.KL','0293.KL','0296.KL','0317.KL','0321.KL','0323.KL','0339.KL',
+                '0346.KL','0348.KL','0352.KL','0353.KL','0355.KL']
         get_stock_data(tickers)
     elif options == 'Media':
-        tickers = ['7.KL','147.KL','173.KL','315.KL']
+        tickers = ['0007.KL','0147.KL','0173.KL','0315.KL']
         get_stock_data(tickers)
     elif options == 'Metals':
-        tickers = ['98.KL','211.KL','266.KL','297.KL','313.KL','336.KL','341.KL']
+        tickers = ['0098.KL','0211.KL','0266.KL','0297.KL','0313.KL','0336.KL','0341.KL']
         get_stock_data(tickers)
     elif options == 'Other Financials':
-        tickers = ['53.KL','150.KL','285.KL','286.KL']
+        tickers = ['0053.KL','0150.KL','0285.KL','0286.KL']
         get_stock_data(tickers)
     elif options == 'Packaging Materials':
-        tickers = ['228.KL']
+        tickers = ['0228.KL']
         get_stock_data(tickers)
     elif options == 'Personal Goods':
-        tickers = ['333.KL','335.KL']
+        tickers = ['0333.KL','0335.KL']
         get_stock_data(tickers)
     elif options == 'Plantation':
-        tickers = ['189.KL']
+        tickers = ['0189.KL']
         get_stock_data(tickers)
     elif options == 'Property':
-        tickers = ['308.KL']
+        tickers = ['0308.KL']
         get_stock_data(tickers)
     elif options == 'Renewable Energy':
-        tickers = ['233.KL','262.KL','318.KL','340.KL']
+        tickers = ['0233.KL','0262.KL','0318.KL','0340.KL']
         get_stock_data(tickers)
     elif options == 'Retailers':
-        tickers = ['210.KL','287.KL','357.KL']
+        tickers = ['0210.KL','0287.KL','0357.KL']
         get_stock_data(tickers)
     elif options == 'Semiconductors':
-        tickers = ['70.KL','120.KL','251.KL','272.KL','275.KL','328.KL']
+        tickers = ['0070.KL','0120.KL','0251.KL','0272.KL','0275.KL','0328.KL']
         get_stock_data(tickers)
     elif options == 'Software':
-        tickers = ['10.KL','18.KL','20.KL','23.KL','26.KL','50.KL','66.KL','68.KL','69.KL','79.KL','86.KL','94.KL',
-                '106.KL','107.KL','108.KL','119.KL','132.KL','152.KL','156.KL','174.KL','203.KL','236.KL','258.KL',
-                '276.KL','290.KL','311.KL','343.KL']
+        tickers = ['0010.KL','0018.KL','0020.KL','0023.KL','0026.KL','0050.KL','0066.KL','0068.KL','0069.KL','0079.KL','0086.KL','0094.KL',
+                '0106.KL','0107.KL','0108.KL','0119.KL','0132.KL','0152.KL','0156.KL','0174.KL','0203.KL','0236.KL','0258.KL',
+                '0276.KL','0290.KL','0311.KL','0343.KL']
         get_stock_data(tickers)
     elif options == 'Technology Equipment':
-        tickers = ['5.KL','36.KL','60.KL','85.KL','111.KL','112.KL','169.KL','181.KL','191.KL','209.KL','265.KL',
-                '267.KL','278.KL','358.KL']
+        tickers = ['0005.KL','0036.KL','0060.KL','0085.KL','0111.KL','0112.KL','0169.KL','0181.KL','0191.KL','0209.KL','0265.KL',
+                '0267.KL','0278.KL','0358.KL']
         get_stock_data(tickers)
     elif options == 'Telecommunications Equipment':
-        tickers = ['17.KL','35.KL','96.KL','103.KL','123.KL','129.KL']
+        tickers = ['0017.KL','0035.KL','0096.KL','0103.KL','0123.KL','0129.KL']
         get_stock_data(tickers)
     elif options == 'Telecom Service Providers':
-        tickers = ['92.KL','165.KL','195.KL']
+        tickers = ['0092.KL','0165.KL','0195.KL']
         get_stock_data(tickers)
     elif options == 'Transportation & Logistics':
-        tickers = ['34.KL','48.KL','80.KL','199.KL','282.KL','299.KL','305.KL']
+        tickers = ['0034.KL','0048.KL','0080.KL','0199.KL','0282.KL','0299.KL','0305.KL']
         get_stock_data(tickers)
     elif options == 'Travel, Leisure & Hospitality':
-        tickers = ['22.KL','116.KL','153.KL']
-        get_stock_data(tickers)    
+        tickers = ['0022.KL','0116.KL','0153.KL']
+        get_stock_data(tickers)
+  
 
     if 'tickers' in locals():
         df = get_stock_data(tickers)
@@ -786,6 +790,7 @@ def etf_tickers_compare(invest_amount,options):
         tickers = ['0820EA.KL','0821EA.KL','0822EA.KL','0823EA.KL','0824EA.KL','0825EA.KL','0827EA.KL','0829EA.KL','0829EB.KL','0838EA.KL','0839EA.KL']
         get_stock_data(tickers)
 
+
     if 'tickers' in locals():
         df = get_stock_data(tickers)
         df_filtered = df[(df['Open'] <= invest_amount)]
@@ -801,59 +806,60 @@ def etf_tickers_compare(invest_amount,options):
 def leap_tickers_compare(invest_amount,options):
 
     if options == 'Agricultural Products':
-        tickers = ['3051.KL']
+        tickers = ['03051.KL']
         get_stock_data(tickers)
     elif options == 'Building Materials':
-        tickers = ['3043.KL','3060.KL']
+        tickers = ['03043.KL','03060.KL']
         get_stock_data(tickers)
     elif options == 'Construction':
-        tickers = ['3017.KL','3042.KL','3050.KL']
+        tickers = ['03017.KL','03042.KL','03050.KL']
         get_stock_data(tickers)
     elif options == 'Consumer Services':
-        tickers = ['3015.KL','3019.KL','3021.KL','3025.KL','3053.KL','3063.KL']
+        tickers = ['03015.KL','03019.KL','03021.KL','03025.KL','03053.KL','03063.KL']
         get_stock_data(tickers)
     elif options == 'Digital Services':
-        tickers = ['3001.KL','3002.KL','3008.KL','3022.KL','3036.KL','3045.KL']
+        tickers = ['03001.KL','03002.KL','03008.KL','03022.KL','03036.KL','03045.KL']
         get_stock_data(tickers)
     elif options == 'Food & Beverages':
-        tickers = ['3032.KL','3048.KL']
+        tickers = ['03032.KL','03048.KL']
         get_stock_data(tickers)
     elif options == 'Health Care Providers':
-        tickers = ['3023.KL']
+        tickers = ['03023.KL']
         get_stock_data(tickers)
     elif options == 'Household Goods':
-        tickers = ['3009.KL','3012.KL','3054.KL']
+        tickers = ['03009.KL','03012.KL','03054.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Materials, Components & Equipment':
-        tickers = ['3027.KL','3031.KL','3056.KL']
+        tickers = ['03027.KL','03031.KL','03056.KL']
         get_stock_data(tickers)
     elif options == 'Industrial Services':
-        tickers = ['3024.KL','3029.KL','3033.KL','3052.KL','3061.KL','3062.KL']
+        tickers = ['03024.KL','03029.KL','03033.KL','03052.KL','03061.KL','03062.KL']
         get_stock_data(tickers)
     elif options == 'Metals':
-        tickers = ['3028.KL']
+        tickers = ['03028.KL']
         get_stock_data(tickers)
     elif options == 'Other Financials':
-        tickers = ['3059.KL']
+        tickers = ['03059.KL']
         get_stock_data(tickers)
     elif options == 'Packaging Materials':
-        tickers = ['3040.KL']
+        tickers = ['03040.KL']
         get_stock_data(tickers)
     elif options == 'Personal Goods':
-        tickers = ['3037.KL']
+        tickers = ['03037.KL']
         get_stock_data(tickers)
     elif options == 'Pharmaceuticals':
-        tickers = ['3006.KL']
+        tickers = ['03006.KL']
         get_stock_data(tickers)
     elif options == 'Plantation':
-        tickers = ['3055.KL']
+        tickers = ['03055.KL']
         get_stock_data(tickers)
     elif options == 'Semiconductors':
-        tickers = ['3011.KL']
+        tickers = ['03011.KL']
         get_stock_data(tickers)
     elif options == 'Software':
-        tickers = ['3030.KL','3039.KL','3041.KL','3046.KL','3057.KL','3058.KL']
+        tickers = ['03030.KL','03039.KL','03041.KL','03046.KL','03057.KL','03058.KL']
         get_stock_data(tickers)
+
 
 
     if 'tickers' in locals():
@@ -870,7 +876,7 @@ def leap_tickers_compare(invest_amount,options):
 def main_ticker_compare2(invest_amount,options2):
 
     if options2 == 'Agricultural Products':
-        tickers = ['136.KL','5278.KL','5300.KL','6633.KL','7084.KL','7085.KL','7134.KL','7174.KL','7176.KL','7252.KL','7439.KL','9385.KL','9776.KL']
+        tickers = ['0136.KL','5278.KL','5300.KL','6633.KL','7084.KL','7085.KL','7134.KL','7174.KL','7176.KL','7252.KL','7439.KL','9385.KL','9776.KL']
         get_stock_data(tickers)
     elif options2 == 'Auto Parts':
         tickers = ['5015.KL','5198.KL','5271.KL','5322.KL','7004.KL','7096.KL','7132.KL','7192.KL','7226.KL','7773.KL','7811.KL','9083.KL']
@@ -1026,76 +1032,109 @@ def main_ticker_compare2(invest_amount,options2):
 
 def ace_tickers_compare2(invest_amount, options2):
     if options2 == 'Agricultural Products':
-        tickers = ['148.KL','171.KL','300.KL']
+        tickers = ['0148.KL','0171.KL','0300.KL']
+        get_stock_data(tickers)
     elif options2 == 'Auto Parts':
-        tickers = ['190.KL','263.KL','322.KL','350.KL']
+        tickers = ['0190.KL','0263.KL','0322.KL','0350.KL']
+        get_stock_data(tickers)
     elif options2 == 'Building Materials':
-        tickers = ['227.KL','247.KL','302.KL','306.KL']
+        tickers = ['0227.KL','0247.KL','0302.KL','0306.KL']
+        get_stock_data(tickers)
     elif options2 == 'Chemicals':
-        tickers = ['38.KL','55.KL','105.KL','301.KL','331.KL','349.KL']
+        tickers = ['0038.KL','0055.KL','0105.KL','0301.KL','0331.KL','0349.KL']
+        get_stock_data(tickers)
     elif options2 == 'Construction':
-        tickers = ['45.KL','109.KL','162.KL','206.KL','221.KL','226.KL','235.KL','237.KL','241.KL','245.KL',
-                   '273.KL','292.KL','310.KL','345.KL','347.KL','351.KL','359.KL','360.KL']
+        tickers = ['0045.KL','0109.KL','0162.KL','0206.KL','0221.KL','0226.KL','0235.KL','0237.KL','0241.KL','0245.KL',
+                '0273.KL','0292.KL','0310.KL','0345.KL','0347.KL','0351.KL','0359.KL','0360.KL']
+        get_stock_data(tickers)
     elif options2 == 'Consumer Services':
-        tickers = ['140.KL','158.KL','178.KL','280.KL','281.KL','304.KL','330.KL','342.KL','356.KL']
+        tickers = ['0140.KL','0158.KL','0178.KL','0280.KL','0281.KL','0304.KL','0330.KL','0342.KL','0356.KL']
+        get_stock_data(tickers)
     elif options2 == 'Digital Services':
-        tickers = ['6.KL','93.KL','117.KL','131.KL','145.KL','154.KL','176.KL','202.KL','249.KL','277.KL','319.KL']
+        tickers = ['0006.KL','0093.KL','0117.KL','0131.KL','0145.KL','0154.KL','0176.KL','0202.KL','0249.KL','0277.KL','0319.KL']
+        get_stock_data(tickers)
     elif options2 == 'Energy Infrastructure Equipment & Services':
-        tickers = ['220.KL','320.KL']
+        tickers = ['0220.KL','0320.KL']
+        get_stock_data(tickers)
     elif options2 == 'Food & Beverages':
-        tickers = ['74.KL','95.KL','179.KL','252.KL','260.KL','271.KL','309.KL','312.KL','316.KL','327.KL','338.KL']
+        tickers = ['0074.KL','0095.KL','0179.KL','0252.KL','0260.KL','0271.KL','0309.KL','0312.KL','0316.KL','0327.KL','0338.KL']
+        get_stock_data(tickers)
     elif options2 == 'Gas, Water & Multi-Utilities':
-        tickers = ['11.KL']
+        tickers = ['0011.KL']
+        get_stock_data(tickers)
     elif options2 == 'Health Care Equipment & Services':
-        tickers = ['155.KL','182.KL']
+        tickers = ['0155.KL','0182.KL']
+        get_stock_data(tickers)
     elif options2 == 'Health Care Providers':
-        tickers = ['75.KL','243.KL','283.KL','303.KL','329.KL','332.KL']
+        tickers = ['0075.KL','0243.KL','0283.KL','0303.KL','0329.KL','0332.KL']
+        get_stock_data(tickers)
     elif options2 == 'Household Goods':
-        tickers = ['170.KL','205.KL','216.KL','279.KL','326.KL']
+        tickers = ['0170.KL','0205.KL','0216.KL','0279.KL','0326.KL']
+        get_stock_data(tickers)
     elif options2 == 'Industrial Engineering':
-        tickers = ['177.KL','240.KL','255.KL','361.KL']
+        tickers = ['0177.KL','0240.KL','0255.KL','0361.KL']
+        get_stock_data(tickers)
     elif options2 == 'Industrial Materials, Components & Equipment':
-        tickers = ['25.KL','28.KL','72.KL','84.KL','100.KL','102.KL','133.KL','175.KL','188.KL','217.KL','238.KL',
-                   '248.KL','288.KL','295.KL','298.KL','307.KL','325.KL','337.KL']
+        tickers = ['0025.KL','0028.KL','0072.KL','0084.KL','0100.KL','0102.KL','0133.KL','0175.KL','0188.KL','0217.KL','0238.KL',
+                '0248.KL','0288.KL','0295.KL','0298.KL','0307.KL','0325.KL','0337.KL']
+        get_stock_data(tickers)
     elif options2 == 'Industrial Services':
-        tickers = ['24.KL','81.KL','89.KL','122.KL','160.KL','167.KL','187.KL','213.KL','218.KL','231.KL','232.KL',
-                   '261.KL','284.KL','289.KL','291.KL','293.KL','296.KL','317.KL','321.KL','323.KL','339.KL',
-                   '346.KL','348.KL','352.KL','353.KL','355.KL']
+        tickers = ['0024.KL','0081.KL','0089.KL','0122.KL','0160.KL','0167.KL','0187.KL','0213.KL','0218.KL','0231.KL','0232.KL',
+                '0261.KL','0284.KL','0289.KL','0291.KL','0293.KL','0296.KL','0317.KL','0321.KL','0323.KL','0339.KL',
+                '0346.KL','0348.KL','0352.KL','0353.KL','0355.KL']
+        get_stock_data(tickers)
     elif options2 == 'Media':
-        tickers = ['7.KL','147.KL','173.KL','315.KL']
+        tickers = ['0007.KL','0147.KL','0173.KL','0315.KL']
+        get_stock_data(tickers)
     elif options2 == 'Metals':
-        tickers = ['98.KL','211.KL','266.KL','297.KL','313.KL','336.KL','341.KL']
+        tickers = ['0098.KL','0211.KL','0266.KL','0297.KL','0313.KL','0336.KL','0341.KL']
+        get_stock_data(tickers)
     elif options2 == 'Other Financials':
-        tickers = ['53.KL','150.KL','285.KL','286.KL']
+        tickers = ['0053.KL','0150.KL','0285.KL','0286.KL']
+        get_stock_data(tickers)
     elif options2 == 'Packaging Materials':
-        tickers = ['228.KL']
+        tickers = ['0228.KL']
+        get_stock_data(tickers)
     elif options2 == 'Personal Goods':
-        tickers = ['333.KL','335.KL']
+        tickers = ['0333.KL','0335.KL']
+        get_stock_data(tickers)
     elif options2 == 'Plantation':
-        tickers = ['189.KL']
+        tickers = ['0189.KL']
+        get_stock_data(tickers)
     elif options2 == 'Property':
-        tickers = ['308.KL']
+        tickers = ['0308.KL']
+        get_stock_data(tickers)
     elif options2 == 'Renewable Energy':
-        tickers = ['233.KL','262.KL','318.KL','340.KL']
+        tickers = ['0233.KL','0262.KL','0318.KL','0340.KL']
+        get_stock_data(tickers)
     elif options2 == 'Retailers':
-        tickers = ['210.KL','287.KL','357.KL']
+        tickers = ['0210.KL','0287.KL','0357.KL']
+        get_stock_data(tickers)
     elif options2 == 'Semiconductors':
-        tickers = ['70.KL','120.KL','251.KL','272.KL','275.KL','328.KL']
+        tickers = ['0070.KL','0120.KL','0251.KL','0272.KL','0275.KL','0328.KL']
+        get_stock_data(tickers)
     elif options2 == 'Software':
-        tickers = ['10.KL','18.KL','20.KL','23.KL','26.KL','50.KL','66.KL','68.KL','69.KL','79.KL','86.KL','94.KL',
-                   '106.KL','107.KL','108.KL','119.KL','132.KL','152.KL','156.KL','174.KL','203.KL','236.KL','258.KL',
-                   '276.KL','290.KL','311.KL','343.KL']
+        tickers = ['0010.KL','0018.KL','0020.KL','0023.KL','0026.KL','0050.KL','0066.KL','0068.KL','0069.KL','0079.KL','0086.KL','0094.KL',
+                '0106.KL','0107.KL','0108.KL','0119.KL','0132.KL','0152.KL','0156.KL','0174.KL','0203.KL','0236.KL','0258.KL',
+                '0276.KL','0290.KL','0311.KL','0343.KL']
+        get_stock_data(tickers)
     elif options2 == 'Technology Equipment':
-        tickers = ['5.KL','36.KL','60.KL','85.KL','111.KL','112.KL','169.KL','181.KL','191.KL','209.KL','265.KL',
-                   '267.KL','278.KL','358.KL']
+        tickers = ['0005.KL','0036.KL','0060.KL','0085.KL','0111.KL','0112.KL','0169.KL','0181.KL','0191.KL','0209.KL','0265.KL',
+                '0267.KL','0278.KL','0358.KL']
+        get_stock_data(tickers)
     elif options2 == 'Telecommunications Equipment':
-        tickers = ['17.KL','35.KL','96.KL','103.KL','123.KL','129.KL']
+        tickers = ['0017.KL','0035.KL','0096.KL','0103.KL','0123.KL','0129.KL']
+        get_stock_data(tickers)
     elif options2 == 'Telecom Service Providers':
-        tickers = ['92.KL','165.KL','195.KL']
+        tickers = ['0092.KL','0165.KL','0195.KL']
+        get_stock_data(tickers)
     elif options2 == 'Transportation & Logistics':
-        tickers = ['34.KL','48.KL','80.KL','199.KL','282.KL','299.KL','305.KL']
+        tickers = ['0034.KL','0048.KL','0080.KL','0199.KL','0282.KL','0299.KL','0305.KL']
+        get_stock_data(tickers)
     elif options2 == 'Travel, Leisure & Hospitality':
-        tickers = ['22.KL','116.KL','153.KL']
+        tickers = ['0022.KL','0116.KL','0153.KL']
+        get_stock_data(tickers)
+
 
     if 'tickers' in locals():
         df = get_stock_data(tickers)
@@ -1112,11 +1151,14 @@ def etf_tickers_compare2(invest_amount, options2):
 
     if options2 == 'Bond Fund':
         tickers = ['0800EA.KL']
+        get_stock_data(tickers)
     elif options2 == 'Commodity Fund':
         tickers = ['0828EA.KL']
+        get_stock_data(tickers)
     elif options2 == 'Equity Fund':
         tickers = ['0820EA.KL','0821EA.KL','0822EA.KL','0823EA.KL','0824EA.KL',
                    '0825EA.KL','0827EA.KL','0829EA.KL','0829EB.KL','0838EA.KL','0839EA.KL']
+        get_stock_data(tickers)
 
     if 'tickers' in locals():
         df = get_stock_data(tickers)
@@ -1134,59 +1176,60 @@ def etf_tickers_compare2(invest_amount, options2):
 def leap_tickers_compare2(invest_amount, options2):
 
     if options2 == 'Agricultural Products':
-        tickers = ['3051.KL']
+        tickers = ['03051.KL']
         get_stock_data(tickers)
     elif options2 == 'Building Materials':
-        tickers = ['3043.KL', '3060.KL']
+        tickers = ['03043.KL', '03060.KL']
         get_stock_data(tickers)
     elif options2 == 'Construction':
-        tickers = ['3017.KL', '3042.KL', '3050.KL']
+        tickers = ['03017.KL', '03042.KL', '03050.KL']
         get_stock_data(tickers)
     elif options2 == 'Consumer Services':
-        tickers = ['3015.KL', '3019.KL', '3021.KL', '3025.KL', '3053.KL', '3063.KL']
+        tickers = ['03015.KL', '03019.KL', '03021.KL', '03025.KL', '03053.KL', '03063.KL']
         get_stock_data(tickers)
     elif options2 == 'Digital Services':
-        tickers = ['3001.KL', '3002.KL', '3008.KL', '3022.KL', '3036.KL', '3045.KL']
+        tickers = ['03001.KL', '03002.KL', '03008.KL', '03022.KL', '03036.KL', '03045.KL']
         get_stock_data(tickers)
     elif options2 == 'Food & Beverages':
-        tickers = ['3032.KL', '3048.KL']
+        tickers = ['03032.KL', '03048.KL']
         get_stock_data(tickers)
     elif options2 == 'Health Care Providers':
-        tickers = ['3023.KL']
+        tickers = ['03023.KL']
         get_stock_data(tickers)
     elif options2 == 'Household Goods':
-        tickers = ['3009.KL', '3012.KL', '3054.KL']
+        tickers = ['03009.KL', '03012.KL', '03054.KL']
         get_stock_data(tickers)
     elif options2 == 'Industrial Materials, Components & Equipment':
-        tickers = ['3027.KL', '3031.KL', '3056.KL']
+        tickers = ['03027.KL', '03031.KL', '03056.KL']
         get_stock_data(tickers)
     elif options2 == 'Industrial Services':
-        tickers = ['3024.KL', '3029.KL', '3033.KL', '3052.KL', '3061.KL', '3062.KL']
+        tickers = ['03024.KL', '03029.KL', '03033.KL', '03052.KL', '03061.KL', '03062.KL']
         get_stock_data(tickers)
     elif options2 == 'Metals':
-        tickers = ['3028.KL']
+        tickers = ['03028.KL']
         get_stock_data(tickers)
     elif options2 == 'Other Financials':
-        tickers = ['3059.KL']
+        tickers = ['03059.KL']
         get_stock_data(tickers)
     elif options2 == 'Packaging Materials':
-        tickers = ['3040.KL']
+        tickers = ['03040.KL']
         get_stock_data(tickers)
     elif options2 == 'Personal Goods':
-        tickers = ['3037.KL']
+        tickers = ['03037.KL']
         get_stock_data(tickers)
     elif options2 == 'Pharmaceuticals':
-        tickers = ['3006.KL']
+        tickers = ['03006.KL']
         get_stock_data(tickers)
     elif options2 == 'Plantation':
-        tickers = ['3055.KL']
+        tickers = ['03055.KL']
         get_stock_data(tickers)
     elif options2 == 'Semiconductors':
-        tickers = ['3011.KL']
+        tickers = ['03011.KL']
         get_stock_data(tickers)
     elif options2 == 'Software':
-        tickers = ['3030.KL', '3039.KL', '3041.KL', '3046.KL', '3057.KL', '3058.KL']
+        tickers = ['03030.KL', '03039.KL', '03041.KL', '03046.KL', '03057.KL', '03058.KL']
         get_stock_data(tickers)
+
 
 
     if 'tickers' in locals():

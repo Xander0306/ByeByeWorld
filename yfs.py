@@ -2,7 +2,7 @@ import streamlit as st
 import yfinance as yf
 import pandas as pd
 import time
-from yff import get_stock_data,forecast,main_ticker,ace_tickers,etf_tickers,leap_tickers,main_ticker_compare,ace_tickers_compare,etf_tickers_compare,leap_tickers_compare,main_ticker_compare2,leap_tickers_compare2,ace_tickers_compare2,etf_tickers_compare2
+from yff import forecast,main_ticker,ace_tickers,etf_tickers,leap_tickers,main_ticker_compare,ace_tickers_compare,etf_tickers_compare,leap_tickers_compare,main_ticker_compare2,leap_tickers_compare2,ace_tickers_compare2,etf_tickers_compare2
 
 
 st.set_page_config(page_title="Explore Malaysia’s Stock Options in One Place", layout="wide")
@@ -122,7 +122,7 @@ elif sidebar_options == "Compare Stock Data":
 
 
         elif market_options2 == 'Ace Market':
-            with col_sector:
+            with col_sector2:
                 options2 = st.selectbox(
                             'Select the sector you interested',
                             ('Agricultural Products','Auto Parts','Building Materials','Chemicals','Construction','Consumer Services','Digital Services','Energy Infrastructure Equipment & Services','Food & Beverages','Gas, Water & Multi-Utilities','Health Care Equipment & Services','Health Care Providers','Household Goods','Industrial Engineering','Industrial Materials, Components & Equipment','Industrial Services','Media','Metals','Other Financials','Packaging Materials','Personal Goods','Plantation','Property','Renewable Energy','Retailers','Semiconductors','Software','Technology Equipment','Telecommunications Equipment','Telecom Service Providers','Transportation & Logistics','Travel, Leisure & Hospitality'),
@@ -140,7 +140,7 @@ elif sidebar_options == "Compare Stock Data":
                 )
 
         elif market_options2 == "Leap Market":
-            with col_sector:
+            with col_sector2:
                 options2 = st.selectbox(
                     'Select the sector you are interested',
                     (
